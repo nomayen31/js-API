@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #users-list > li{
+                font-size: 33px;
+                color: blueviolet;
+                list-style: none;
+                
+        }
+    </style>
 </head>
 <body>
     <button onclick="loadData()">Load Data</button>
     <button onclick="loadData2()">LoadData 2</button>
     <button onclick="loadUsers()">Load Users</button>
+    <button onclick="loadUsers2()">Load Users 2</button>
+
+    <div class="user-container">
+        <ul id="users-list">
+           
+        </ul>
+    </div>
+
+
+
+    <!-- <script></script> -->
     
 
     <script src="./fetch.js"></script>
     <script src="./app.js "></script>
+    <script src="./index.js"></script>
 </body>
 </html>
