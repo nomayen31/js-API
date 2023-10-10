@@ -22,3 +22,4 @@ function displayPost(posts){
 }
 
 loadPost();
+
